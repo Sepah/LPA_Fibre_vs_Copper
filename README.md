@@ -1,8 +1,9 @@
 # LPA_Fibre_vs_Copper
 # LPA_Fibre_vs_Copper
 
-
+```
 >>>>>>./LPA_FOCat
+
 Fibre Optic Dyanamic Test - LPA FOCat 1.0
 
 Transciever Identifier = SFP or SFP+
@@ -13,10 +14,11 @@ Vendor Part Number = SFPP-SR
 Serial = D8791902526     
 Manufacture Date = 170920  
 -------------------------------------------------------------------------------------
+```
 
-
-
+```
 >>>>>>./LPA_FOCat -r
+
 Fibre Optic Dyanamic Test - LPA FOCat 1.0
 
 Transciever Identifier = SFP or SFP+
@@ -27,10 +29,11 @@ Vendor Part Number = SFPP-SR
 Serial = D8791902526     
 Manufacture Date = 170920  
 -------------------------------------------------------------------------------------
+```
 
-
-
+```
 >>>>>>./LPA_FOCat -d
+
 Dumping to 'EEPROM_contents'...
 
      0   1   2   3   4   5   6   7   8   9   a   b   c   d   e   f   0123456789abcdef  
@@ -53,7 +56,7 @@ f0:  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00
 -------------------------------------------------------------------------------------
 
 
-
+```
 >>>>>>./LPA_Focat -m
 _______________________________________________
 SFP Temperature = 29.3008C
@@ -63,3 +66,4 @@ Tx, Optical Power = -1.8006 dBm, 0.660600 mW
 Rx, Optical Power = -23.8722 dBm, 0.004100 mW
 Time elapsed 2.185305, Iteration 25 
 -------------------------------------------------------------------------------------
+```
