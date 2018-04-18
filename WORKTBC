@@ -1,8 +1,11 @@
-Connect to dynamic test rig
-Mount Jumper on Brackets
-Design circuit for start/stop control using RPi
+Connect RPi to dynamic test rig
+Mount Jumper onto the rig once the brackets are fabricated
+Design the circuit for start/stop control using RPi
 Integrate emergency stop functions into circuit and programme
- - allow external input to drive RPi and stop programme
+Allow external input to drive and initate stop procedures
 Calculate measuring intervals and wait times
 Programme the movements into the test rig
 Adapt the programme for use with copper cables as well as Fibre Optics
+develop a GUI for the programme
+set variables into the GUI and make the programme self contained
+Upload testdata to cloud continuously from the Raspberry Pi 
