@@ -1,0 +1,8 @@
+Connect to dynamic test rig
+Mount Jumper on Brackets
+Design circuit for start/stop control using RPi
+Integrate emergency stop functions into circuit and programme
+ - allow external input to drive RPi and stop programme
+Calculate measuring intervals and wait times
+Programme the movements into the test rig
+Adapt the programme for use with copper cables as well as Fibre Optics

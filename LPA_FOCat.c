@@ -205,10 +205,8 @@ int dump(char *filename)
         return 1;
     }
     printf ("Dumping to 'EEPROM_contents'...\n\n") ;
-    fprintf(Dumpfile,"     0   1   2   3   4   5   6   7   8   9   a   b  "
-            " c   d   e   f   0123456789abcdef");
-    printf("     0   1   2   3   4   5   6   7   8   9   a   b  "
-            " c   d   e   f   0123456789abcdef");
+    fprintf(Dumpfile,"     0   1   2   3   4   5   6   7   8   9   a   b  "" c   d   e   f   0123456789abcdef");
+    printf("     0   1   2   3   4   5   6   7   8   9   a   b  "" c   d   e   f   0123456789abcdef");
     while (counter < 0x100)
     {   //addresses 0 to 255
         if ((counter % 0x10) == 0)
